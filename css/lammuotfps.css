@@ -1,0 +1,633 @@
+/* Repaired Menu Design */
+
+.SocialBarBody {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 28vw !important;
+    height: 5% !important;
+    justify-content: center !important;
+}
+
+.SocialBarPartySection { /* Party Bar */
+    position: fixed !important;
+    bottom: 0 !important;
+    transform: translateX(-50%) !important;
+    width: auto !important;
+    left: 50% !important;
+    border: none !important;
+}
+
+.SocialBarFriends {
+    flex: 0 !important;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    padding: 0rem !important;
+    scrollbar-width: none !important;
+    position: fixed !important;
+    width: 0 !important;
+    height: 0 !important;
+    opacity: 0 !important;
+    right: 2222rem !important;
+}
+
+.SocialBarFriendsPlaceholderRow {
+    background-color: #00000000 !important;
+}
+
+.SocialBarInner {
+    scrollbar-width: none !important;
+    margin: none !important;
+    background-color: transparent !important;
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SocialBarSection {
+    width: auto;
+    border: none;
+}
+
+.SocialBarInner { /* Title */
+    background-color: transparent !important;
+    width: auto !important;
+    scrollbar-width: none !important;
+}
+
+.SocialBarSameNetwork {
+    top: 80% !important;
+    transform: translateY(-50%);
+    height: 20% !important;
+    justify-content: normal !important;
+}
+
+.SocialBarIdentityTop {
+    justify-content: center !important;
+}
+
+.SocialBarContainer.Docked {
+    width: auto !important;
+}
+
+.SocialBarFooter { /* Footer */
+    position: fixed !important;
+    left: 100% !important;
+    transform: translateX(-100%) !important;
+    margin-top: auto !important;
+    bottom: 0 !important;
+    width: 20rem !important;
+}
+
+/* Party Buttons */
+
+.JoinPartyButton {
+    color: #ffffff !important;
+}
+
+.PurpleSecondaryButton {
+    color: #ffffff !important;
+}
+
+/* Settings */
+
+.EverythingMenuBannerDiv {
+    background-color: transparent !important;
+    display: none !important;
+    height: 0 !important;
+    pointer-events: none !important;
+    width: 0 !important;
+}
+
+/* Background */
+
+.HomePageInner {
+    display: flex !important;
+    justify-content: space-around !important;
+    position: relative !important;
+    flex-wrap: nowrap !important;
+    flex-direction: column !important;
+}
+
+.HomePageInnerRight {
+    background-color: transparent !important;
+}
+
+.PartyBar .PartyJoinCreate, .PartyBar .PartyJoinCreate .PartyCodeEntryRow {
+    align-items: stretch !important;
+    display: flex !important;
+    gap: .5rem !important;
+    min-width: 0 !important;
+    flex-direction: row !important;
+}
+
+.CreatePartyButton {
+    width: 9rem !important;
+}
+
+.PartyBar {
+    background-color: #00000000 !important;
+}
+
+.PartyCodeEntryRow {
+    align-items: stretch;
+    display: flex;
+    gap: .5rem;
+    min-width: 0;
+    flex-direction: row !important;
+}
+
+.HomePageBackground {
+    height: 0rem !important;
+    filter: none !important;
+}
+
+/* Online Players */
+
+.HomeTitleCcu {
+    background-color: transparent !important;
+}
+
+.TitleContainerBottom {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    margin: 1rem !important;
+    align-items: center !important;
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 0rem !important;
+    justify-content: center;
+}
+
+/* Notifications */
+
+.NotificationBellContainer {
+    width: 0px !important;
+    height: 0px !important;
+    position: fixed;
+    opacity: 0 !important;
+    right: 2222rem !important;
+}
+
+.NotificationBell {
+    font-size: 0rem !important;
+    width: 0rem !important;
+    height: 0rem !important;
+    right: 2222rem !important;
+    position: fixed !important;
+    opacity: 0 !important;
+}
+
+/* Main middle part */
+
+.HomePageInnerLeft {
+    gap: 0.2rem !important;
+}
+
+/* Top Elements */
+
+.HomePagePartyBar {
+    background-color: #00000073 !important;
+}
+
+.ActionShortcutBarElement {
+    background-color: #00000073 !important;
+}
+
+.JoinPartyHashtag {
+    background-color: #000000 !important;
+}
+
+/* Terms of service text */
+
+.HomePageFooter {
+    display: flex;
+    gap: 0rem !important;
+    padding: 0rem !important;
+    opacity: 0 !important;
+    width: 0rem !important;
+    height: 0rem !important;
+    position: fixed !important;
+    right: 2222rem !important;
+}
+
+/* Custom Games Category top window */
+
+.CategoryGameListHeader {
+    background-color: #0000002d !important;
+}
+
+.Pagination {
+    background-color: #0000002d !important;
+    border: none !important;
+}
+
+/* Links */
+
+.LinksPopupLink {
+    background: #00000036 !important;
+    border: none !important;
+}
+
+/* Fixes Loading Screen */
+
+.LoadingOverlay {
+    display: flex !important;
+    flex-direction: column !important;
+    background-color: #00000050 !important;
+}
+
+.LoadingOverlayLeftInner {
+    width: 0px !important;
+    height: 0px !important;
+}
+
+.LoadingOverlayRightAdBannerContainer {
+    width: 0px !important;
+    height: 0px !important;
+}
+
+/* Removes "Ad Banner" ad in Loading page */
+
+.AdBanner {
+    opacity: 0 !important;
+    font-size: 0px !important;
+    color: #00000000 !important;
+    width: 0px !important;
+    height: 0px !important;
+    gap: 0px !important;
+    background: none !important;
+    border: unset !important;
+    outline: none !important;
+}
+
+.InventoryWrapper .InventoryAdOuter {
+    width: 0rem !important;
+    height: 0rem !important;    
+}
+
+.InventoryAdInner {
+    width: 0rem !important;
+    height: 0rem !important;
+}
+
+.InventoryAd {
+    width: 0rem !important;
+    height: 0rem !important;
+}
+
+.AdBannerLoader {
+    font-size: 0rem !important;
+}
+
+/* Removes "Super Rank" ad in Loading page */
+
+.SuperRankAd {
+    opacity: 0 !important;
+    font-size: 0px !important;
+    color: #00000000 !important;
+    width: 0px !important;
+    height: 0px !important;
+    gap: 0px !important;
+    background: none !important;
+    border: unset !important;
+    outline: none !important;
+}
+
+.SuperRankAdInner {
+    width: 0px !important;
+    height: 0px !important;
+    padding: 0% !important;
+    margin: 0% !important;
+}
+
+.SuperRankAdLogoAndTitle {
+    opacity: 0 !important;
+    font-size: 0px !important;
+    color: #00000000 !important;
+    width: 0px !important;
+    height: 0px !important;
+    gap: 0px !important;
+}
+
+.SuperRankAdSubTitle {
+    opacity: 0 !important;
+    font-size: 0px !important;
+    color: #00000000 !important;
+    width: 0px !important;
+    height: 0px !important;
+}
+
+.SuperRankAdTable {
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    flex-grow: 0 !important;
+    font-size: 0px !important;
+    order: 0 !important;
+}
+
+.SuperRankPerksTable {
+    width: 0% !important;
+    height: 0% !important;
+    border: unset;
+    background: none !important;
+}
+
+.SuperRankAdButton {
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    order: 0 !important;
+}
+
+/* This removes the "Buy Now" button on the cosmetic pack ad */
+
+.HomePage .HomePageInner .HomePageInnerLeft .HomePagerAdContainer {
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    background: none !important;
+    border: none !important;
+    padding: 0px !important;
+    transition: none !important;
+    position: absolute !important;
+    left: 0rem !important;
+}
+
+.AdBanner.AdBannerExtraContrast {
+    background: none !important;
+    border: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+}
+
+.AdBanner.CosmeticPackAd {
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    background: none !important;
+    border: none !important;
+}
+
+.CosmeticPackAdOverlay {
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    background: none !important;
+    border: none !important;
+}
+
+.CosmeticPackAdCharacters {
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    gap: 0px !important;
+    padding: 0px !important;
+    background: none !important;
+    border: none !important;
+}
+
+.CosmeticPackAdFooter {
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    gap: 0px !important;
+    padding: 0px !important;
+    background: none !important;
+    border: none !important;
+}
+
+.CosmeticPackAdCharacterPreview {
+    image-rendering: pixelated !important;
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    background: none !important;
+    border: none !important;
+}
+
+.CosmeticPackAdName {
+    font-size: 0px !important;
+    opacity: 0 !important;
+    background: none !important;
+    border: none !important;
+}
+
+.CosmeticPackAdItemCountInner {
+    font-size: 0px !important;
+    opacity: 0 !important;
+    background: none !important;
+    border: none !important;
+}
+
+.CosmeticPackAdItemCount {
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    border: none !important;
+    background: none !important;
+}
+
+.CosmeticPackAdCta {
+    background: none !important;
+    font-size: 0px !important;
+    opacity: 0 !important;
+    width: 0px !important;
+    height: 0px !important;
+    border: none !important;
+}
+
+/* Removes "Create Custom game" */
+
+.CreateCustomGameCTA {
+    background: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    border: none !important;
+    padding: 0px !important;
+    transition: none !important;
+    position: absolute !important;
+    right: 5000rem !important;
+}
+
+.CreateCustomGameCTA .CTAInner {
+    background: none !important;
+    font-size: 0px !important;
+    opacity: 0 !important;
+    width: 0px !important;
+    height: 0px !important;
+    border: none !important;
+    padding: 0px !important;
+    transition: none !important;
+}
+
+.CreateCustomGameCTA .CTAIconArea {
+    background: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    border: none !important;
+    padding: 0px !important;
+    transition: none !important;
+}
+
+.CreateCustomGameCTA .CTAText {
+    font-size: 0px !important;
+    opacity: 0 !important;
+    background: none !important;
+    border: none !important;
+    padding: 0px !important;
+    transition: none !important;
+}
+
+.CreateCustomGameCTA .CTAButtonArea .CTAButton {
+    background: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    border: none !important;
+    padding: 0px !important;
+    transition: none !important;
+}
+
+.CreateCustomGameCTA .CTAButtonArea {
+    background: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    border: none !important;
+    padding: 0px !important;
+    transition: none !important;
+}
+
+/* Removes Rainbow buttons */
+
+.RainbowButton {
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    background: none !important;
+    border: none !important;
+}
+
+.NewBadge {
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    background: none !important;
+    border: none !important;
+    transition: none !important;
+    font-size: 0px !important;
+    padding: 0% !important;
+    text-shadow: 0 0 0px #00000000 !important;
+    color: #00000000 !important;
+}
+
+/* Makes Gamemode images run smoother */
+
+.GameCardContainer .AvailableGame .AvailableGameInner {
+    image-rendering: pixelated !important;
+}
+
+/* Moves Main Gamemodes to the middle part of the screen */
+
+.HomePage .HomePageInner .HomePageInnerLeft .HomePageInnerLeftBody {
+    height: 60% !important;
+}
+
+/* Removes the Badges of Gamemodes */
+
+.ThumbnailBadgeMain {
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+    background: none !important;
+    border: none !important;
+    font-size: 0px !important;
+    color: #00000000 !important;
+    text-shadow: 0 0 BLACK !important;
+}
+
+.ThumbnailBadgesContainer .ThumbnailBadgeContainer.popular .ThumbnailBadgeMain {
+    background: none !important;
+}
+
+/* Removes all the Custom games */
+
+.CenteredDiv .CenteredDivMiddle .TopCustomGameList .TopCustomGameListTitle {
+    width: 0% !important;
+    height: 0% !important;
+    background: none !important;
+    color: #00000000 !important;
+    font-size: 0px !important;
+    border: none !important;
+    padding: 0px !important;
+    transition: none !important;
+    text-shadow: 0 0 BLACK !important;
+}
+
+.CenteredDiv {
+    overflow: hidden !important;
+    height: unset !important;
+}
+
+.CenteredDiv .CenteredDivMiddle {
+    gap: unset !important;
+    height: auto !important;
+    overflow: visible !important;
+    flex-grow: 0 !important;
+}
+
+.TopCustomGameList {
+    width: stretch !important;
+}
+
+.RecentlyPlayedGameList {
+    display: none !important;
+}
+
+/* Scan the QR Code */
+
+.ToastNotification {
+    background: none !important;
+    border: none !important;
+    box-sizing: unset !important;
+    width: 0rem !important;
+    height: 0rem !important;
+    position: absolute !important;
+    right: 9999rem !important;
+}
+
+.ToastNotificationClose {
+    height: 0rem !important;
+    opacity: 0 !important;
+    position: absolute !important;
+    width: 0rem !important;
+    font-size: 0rem !important;
+}
+
+.MobileLinkAndPwaPromptToast {
+    gap: 0rem !important;
+    height: 0rem !important;
+    padding: 0rem !important;
+    width: 0rem !important;
+    opacity: 0 !important;
+}
+
+.MobileAndPwaPrompt {
+    font-size: 0rem !important;
+}
+
+/* Respawn */
+
+.RespawnMainContentInner {
+    background: none !important;
+    border: 0 !important;
+    box-shadow: 0 0 black !important;
+    padding: 0rem !important;
+}
